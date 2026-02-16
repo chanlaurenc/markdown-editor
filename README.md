@@ -1,4 +1,4 @@
-MILESTONE 1 UNDERSTANDING QUIZ (Deeper Version)
+## MILESTONE 1 UNDERSTANDING QUIZ (Deeper Version)
 1. What is stored inside the hidden `.git` folder?
     The hidden '.git' folder stores all of Git's internal data for your project, including the complete commit history, branches, tags, configuration settings, and the snapshots that let Git track and restore every version of your files.
 
@@ -14,7 +14,7 @@ MILESTONE 1 UNDERSTANDING QUIZ (Deeper Version)
 5. What is the difference between: `git init` and `git clone`
     'git init' creates a brand-new, empty Git repository in your current folder, while 'git clone' copies an existing remote repository onto your computer and automatically connects it to that remote.
 
-MILESTONE 1 QUIZ QUESTIONS
+## MILESTONE 1 QUIZ QUESTIONS
 1. What is the purpose of `git commit` ?
     A 'git commit' captures a snapshot of the project's currently staged changes.
 
