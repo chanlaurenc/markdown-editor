@@ -88,3 +88,42 @@
 4. Why should theme state also be persisted?
 
     Theme state should be persisted so the user's light/dark preference remains consistent across page reloads, improving user experience and maintaining interface consistency.
+
+## FINAL REFLECTION QUIZ
+1. How did you utilize AI to help you code the app, show some examples.
+
+    I used AI as a step-by-step coding assistant throughout the entire project, but I followed the rule of asking for one small thing at a time instead of requesting the full solution. Some examples:
+
+    In Milestone 2, I asked for CDN links for Bootstrap, Vue, and marked.js, and I asked how to switch flex direction using a media query at 768px. I also asked how to position an element in the top-right corner using CSS.
+
+    In Milestone 3, I used AI to better understand Vue reactivity, including how v-model works, what a computed property is, and how to use v-html to render Markdown output. I also asked how to remove HTML tags from a string before counting characters for the character counter.
+
+    In Milestone 4, I asked how to use localStorage inside the mounted() hook, how Vue watchers work, and how to dynamically update the Bootstrap theme using data-bs-theme.
+
+    AI mainly helped clarify syntax, explain concepts, and debug small issues (like why my textarea text disappeared after adding v-model). I implemented and tested each step myself to ensure I understood what was happening.
+
+2. What part of the build was most challenging?
+
+    The most challenging part was understanding Vue reactivity, especially the difference between data, computed, and watch. At first it wasn't obvious why `v-model` overrides the textarea content or why computed properties update automatically. Getting the theme persistence and icon swap working correctly also required careful debugging.
+
+3. What is the benefit of using a framework such as Vue for frontend development?
+
+    Using Vue simplifies frontend development by managing state and automatically updating the DOM when data changes. Instead of manually manipulating the DOM, Vue handles reactivity, which makes the code cleaner, more maintainable, and easier to scale. it separates logic, structure, and styling in a clear and predictable way.
+
+## AI PROMPTS I USED
+- What are the CDN links for Bootstrap 5, Vue 3, and marked.js?
+- How do I switch flex direction using a media query at 768px?
+- How do I position an element in the top-right corner using CSS?
+- How do I bind a textarea using `v-model` in Vue 3?
+- What is a Vue computed property?
+- What is the difference between data and computed in Vue?
+- What does `v-html` do?
+- Why does my textarea text disappear when using `v-model`?
+- How do I render Markdown using marked.js in Vue?
+- How can I remove HTML tags from a string in JS?
+- When does the Vue mounted() lifecycle hook run?
+- How do I use localStorage inside the Vue mounted() hook?
+- What is a Vue watcher and how does it work?
+- How do I persist theme preference across page reloads?
+- How do I dynamically change Bootstrap's theme using data-bs-theme?
+- Why shouldn’t we manipulate the DOM manually in Vue?
