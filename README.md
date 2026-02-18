@@ -72,3 +72,15 @@
 
     We must strip HTML before counting characters because the rendered output includes HTML tages that are not visible to the user and counting them would inflate the character count inaccurately.
 
+## MILESTONE 4 QUIZ QUESTIONS
+1. What is localStorage?
+
+
+2. When does `mounted()` run?
+
+
+3. What is a Vue watcher?
+
+
+4. Why should theme state also be persisted?
+
