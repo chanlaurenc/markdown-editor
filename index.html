@@ -14,11 +14,11 @@
     <div id="app" class="editor-container">
         <span id="themeToggle"class="material-icons">dark_mode</span>
 
-        <textarea id="input">Type here...</textarea>
+        <textarea id="input" v-model="message">Type here...</textarea>
 
-        <div id="output" class="h-100"></div>
+        <div id="output" class="h-100" v-html="htmlOutput"></div>
 
-        <div id="counter">12</div>
+        <div id="counter">{{ charCount }}</div>
     </div>
     <script src="app.js"></script>
 </body>

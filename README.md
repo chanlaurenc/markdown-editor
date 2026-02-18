@@ -52,3 +52,17 @@
 4. What happens if media query is placed before base styles?
 
     The base styles that come after it can override the media query rules, potentially breaking the responsive layout because CSS is applied from top to bottom.
+
+
+## MILESTONE 3 QUIZ QUESTIONS 
+1. What is the difference between `data` and `computed` in Vue?
+
+
+2. Why should we not manipulate DOM manually in Vue?
+
+
+3. What does `v-html` do?
+
+
+4. Why must we strip HTML before counting characters?
+
