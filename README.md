@@ -75,12 +75,16 @@
 ## MILESTONE 4 QUIZ QUESTIONS
 1. What is localStorage?
 
+    localStorage is a brower-based storage system that saves small key-value data pairs permanently on the user's device, even after the page is refreshed or the browser is closed.
 
 2. When does `mounted()` run?
 
+    `mounted()` runs after the Vue component has been created and isnerted into the DOM, making it the ideal place to load saved data or interact with the document.
 
 3. What is a Vue watcher?
 
+    A Vue watcher observes a reactive data property and automatially runs a function whenever that property changes.
 
 4. Why should theme state also be persisted?
 
+    Theme state should be persisted so the user's light/dark preference remains consistent across page reloads, improving user experience and maintaining interface consistency.
