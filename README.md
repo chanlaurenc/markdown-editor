@@ -57,12 +57,18 @@
 ## MILESTONE 3 QUIZ QUESTIONS 
 1. What is the difference between `data` and `computed` in Vue?
 
+    `data` stores the rreactive state of your app, while `computed` defines dereived values that automaticaly updated based on that state.
 
 2. Why should we not manipulate DOM manually in Vue?
 
+    We should not manipulate the DOM manually in Vue because Vue automatically manages and updates the DOM based on reactive state, and manual changes can conflict with its rendering system and cause unpredictable behavior.
 
 3. What does `v-html` do?
 
+    `v-html` takes a string of HTML and injects it into an element so it is rendered as actual HTML in the DOM, rather than displayed as plain text.
+
 
 4. Why must we strip HTML before counting characters?
+
+    We must strip HTML before counting characters because the rendered output includes HTML tages that are not visible to the user and counting them would inflate the character count inaccurately.
 
